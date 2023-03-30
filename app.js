@@ -51,7 +51,6 @@ function playRound(playerSelection, computerSelection) {
 
 // create a game() function and put 5 playRound functions inside
 function game() {
-
   //match 1
   getComputerChoice();
 
@@ -97,11 +96,10 @@ function game() {
   //check who won
   playRound(playerSelection, computerSelection);
 
-  if(playerScore > computerScore){
+  if (playerScore > computerScore) {
     console.log("You win the game");
-  }else console.log("You lose the game")
-
+  } else console.log("You lose the game");
 }
 
 game();
-console.log(computerSelection)
+console.log(computerSelection);
