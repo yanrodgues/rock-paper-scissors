@@ -1,13 +1,20 @@
 # rock-paper-scissors
 
-Feito para ser rodado apenas no console, como projeto básico do Project Odin (www.theodinproject.com)
+Este é um jogo simples de Pedra, Papel e Tesoura feito com JavaScript e HTML. O usuário pode escolher a opção pedra, papel ou tesoura clicando nos botões correspondentes e o computador escolherá uma opção aleatória. O jogo consiste em cinco rodadas e o objetivo é marcar mais pontos que o computador. O resultado parcial de cada rodada é exibido abaixo dos botões, bem como o resultado total
 
-A função `getComputerChoice()` gera um número aleatório entre 0 e 100 e atribui a escolha do computador com base no intervalo do número.
+## Como jogar
 
-A função `getPlayerChoice()` solicita ao usuário sua escolha e converte-a em minúsculas, para que o usuário não tenha que digitar exatamente como esperado.
-
-A função `playRound()` recebe as seleções do jogador e do computador como argumentos e determina um vencedor com base nas regras do jogo. A função também incrementa a pontuação do vencedor.
-
-A função `game()` chama as funções `getComputerChoice()`, `getPlayerChoice()` e `playRound()` cinco vezes para simular cinco rodadas do jogo. A função então compara as pontuações do jogador e do computador para determinar o vencedor do jogo.
+Clique em um dos botões "Pedra", "Papel" ou "Tesoura".
+Repita por mais quatro vezes.
+O resultado parcial de cada rodada será exibido abaixo dos botões e o resultado final após cinco rodadas.
 
 
+
+### Tecnologias utilizadas
+HTML
+CSS
+JavaScript
+
+
+## Créditos
+Este jogo foi baseado no projeto "Rock Paper Scissors" do curso The Odin Project.
